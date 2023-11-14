@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgba(0,0,0,0.9);
+}
+#power{
+    top:0;
+  right:0;
+  position: absolute;
+    padding-right:2px;
+    width:10px;
+    height:10px;
+    margin:2px 2px 0 0;
+    background-color:red;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.oprbtn:hover{
+    border-radius: 10px;
+    border:2px solid rgba(0,0,0,0.3);
+    outline: none;
+    transform: scale(1.05);
+}
+button:hover{
+    cursor:pointer;
+    outline:2px solid grey;
+}
+h1{
+     text-align: center;
+   letter-spacing: 3px;
+    font-size: 50px;
+    color: coral;
+    border-bottom: 2px solid white;
+  
+  
+    
+}
+
+button{
+    font-size: 20px;
+    border: none;
+    background: rgba(0,0,0,0.1);
+   
+}
+.container{
+    left:50%;
+    top:30%;
+    position: absolute;
+    transform: translate(-50%);   
+   padding:20px;
+   background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+    width: 390px;
+    /* box-shadow: 5px 5px 40px 1px white; */
+   
+
+}
+
+.text-box input{
+    width:380px;
+    height:60px;
+    border: none;
+  outline: none;
+    text-align: right;
+    font-size: 20px;
+   
+}
+#preinput{
+    right:7%;
+    position: absolute;
+    font-size:13px;
+}
+.top-btn{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+}
+.top-btn button{
+    width:80px;
+    height:50px;
+  
+   
+}
+
+.oprbtn{
+    background: none;
+    border: none;
+    border-radius:10px;
+    /* border:2px solid brown; */
+    background: rgba(0,0,0,0.2);
+   
+}
+
+.input-btn{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap:10px;
+}
+.input-btn button{
+    width:80px;
+    height:50px;
+}
